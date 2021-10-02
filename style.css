@@ -1,28 +1,18 @@
-#app
-{
+#app {
     width: 100%;
     height: 800px;
-    background-color: darkslateblue;
+    background-color: aliceblue;
 }
-.line
+
+.container
 {
-    height: 6px;
-    width: 70px;
-    margin: 8px auto;
+    text-align: center;
 }
-#Game
-{
-    width: 100%;
-    height: 800px;
-    background-color:greenyellow;
+
+#myCarousel{
+    background-color: red;
 }
-img
-{
-    transition: transform .2s;
-}
-#chatbot
-{
-    width: 100%;
-    height: 800px;
-    background-color:orange;
+#myCarousel img{
+height: 300px;
+    margin-top: 35px
 }
